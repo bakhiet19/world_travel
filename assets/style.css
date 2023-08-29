@@ -305,7 +305,7 @@ h2{
     color: red;
 }
 
-.texts{
+.places .parent .child .texts{
     margin-top: 5px;
     margin-bottom: 15px;
     display: flex;
@@ -379,6 +379,7 @@ footer{
 
 footer .parent{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -476,5 +477,25 @@ footer .container .child.social i:hover{
     .features .child{
         min-width: 100%;
         max-width: 100%;
+    }
+    .places .parent{
+        flex-wrap: wrap;
+    }
+    .places .parent .child{
+        min-width: 90%;
+        max-width: 90%;
+        margin: 10px auto;
+    }
+    .places .parent .child i ,
+    .places .parent .child p{
+        font-size: 10px;
+    }
+    .places .parent .child h3{
+        font-size: 16px;
+    }
+    footer .container .child{
+        min-width: 90%;
+        max-width: 90%;
+        margin: 10px auto;
     }
 }
