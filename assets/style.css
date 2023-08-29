@@ -369,7 +369,19 @@ h2{
     outline: none;
     display: block;
     border: none;
+    cursor: pointer;
+    background: var(--main-text-color);
+    color: var(--second-text-color);
+    transition: all 1s ease;
 }
+
+.btn:hover{
+    background-color: var(--second-text-color);
+    color: var(--main-text-color);
+    min-width: 60px;
+}
+
+
 
 
 
